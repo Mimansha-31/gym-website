@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('danielle-cerullo-CQfNt66ttZM-unsplash.jpg');
+    background-size: cover;
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display:inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+   text-decoration: underline ;
+   color: grey;
+}
+.left{
+position: absolute;
+left: 39px;
+top:18px;
+color:white;
+//border: 2px solid black;
+display:inline-block;
+}
+.left img{
+    width: 70px;
+}
+
+.mid{
+display:block;
+width:50%;
+margin: 20px auto;
+color:white;
+//border: 2px solid white;
+}
+.right{
+position: absolute;
+right: 34px;
+top:34px;
+color:white;
+//border:2px solid blue;
+display:inline-block;
+}
+.btn{
+   margin: 0px 19px;
+   color: white; 
+   background-color: black;
+   padding: 9px 11px;
+   border:2px solid grey;
+   border-radius: 8px;
+   font-size: 10px;
+   cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(51, 48, 48);
+}
+.container{
+   border: 2px solid white;
+   margin: 202px 200px;
+   padding:39px 75px;
+   width:33%;
+   border-radius: 20px;
+   color: white;
+}
+.form-group input{
+    text-align: center;
+    display:block;
+    width:450px;
+    padding:1px ;
+    border: 250px ;
+    margin: 11px auto;
+    font-size:25px ;
+    border-radius: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display:block;
+    width:91%;
+    margin: 22px auto;
+}
